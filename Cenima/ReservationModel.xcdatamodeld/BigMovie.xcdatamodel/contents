@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22C65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ReservationModel" representedClassName="ReservationModel" syncable="YES" codeGenerationType="class">
+        <attribute name="movieAvarage" optional="YES" attributeType="Integer 16" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="movieBackdropPath" optional="YES" attributeType="String"/>
+        <attribute name="movieOriginalLanguage" optional="YES" attributeType="String"/>
+        <attribute name="movieOverView" optional="YES" attributeType="String"/>
+        <attribute name="moviePopularity" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="movieReleaseDate" optional="YES" attributeType="String"/>
+        <attribute name="movieReserved" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="movieTitle" optional="YES" attributeType="String"/>
+        <attribute name="movieUrl" optional="YES" attributeType="URI"/>
+        <attribute name="movieVote" optional="YES" attributeType="Integer 16" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+</model>

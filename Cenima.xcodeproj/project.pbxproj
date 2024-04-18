@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACBB7C3F2BB4DE5E00CBA32B /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB7C3E2BB4DE5E00CBA32B /* MovieDetailsView.swift */; };
+		ACBB7C432BB50FC200CBA32B /* jsonReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB7C422BB50FC200CBA32B /* jsonReader.swift */; };
+		ACBB7C452BB7207E00CBA32B /* Searches.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB7C442BB7207E00CBA32B /* Searches.swift */; };
+		ACBB7C472BB7C7F700CBA32B /* SearchMoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB7C462BB7C7F700CBA32B /* SearchMoviesView.swift */; };
+		ACD3C3122BBA805400A8F539 /* ReservationModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C3102BBA805400A8F539 /* ReservationModel.xcdatamodeld */; };
+		ACD3C3142BBA868C00A8F539 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C3132BBA868C00A8F539 /* Persistance.swift */; };
+		ACD3C31E2BBBD34400A8F539 /* ReservationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C31D2BBBD34300A8F539 /* ReservationsView.swift */; };
+		ACD3C33F2BCCE5B300A8F539 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C33E2BCCE5B300A8F539 /* ProfileView.swift */; };
+		ACD3C3412BCCEF2D00A8F539 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C3402BCCEF2D00A8F539 /* InformationView.swift */; };
+		ACF2AB8F2BB28C550045E3A4 /* CenimaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2AB8E2BB28C550045E3A4 /* CenimaApp.swift */; };
+		ACF2AB912BB28C550045E3A4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2AB902BB28C550045E3A4 /* MainView.swift */; };
+		ACF2AB932BB28C570045E3A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF2AB922BB28C570045E3A4 /* Assets.xcassets */; };
+		ACF2AB962BB28C570045E3A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF2AB952BB28C570045E3A4 /* Preview Assets.xcassets */; };
+		ACF2AB9E2BB28E0E0045E3A4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2AB9D2BB28E0E0045E3A4 /* LoginView.swift */; };
+		ACF2ABA02BB28EDB0045E3A4 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2AB9F2BB28EDB0045E3A4 /* SignUpView.swift */; };
+		ACF2ABA22BB482300045E3A4 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2ABA12BB482300045E3A4 /* MainTabView.swift */; };
+		ACF2ABA52BB4830F0045E3A4 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2ABA42BB4830F0045E3A4 /* MoviesView.swift */; };
+		ACF2ABA82BB4C6CC0045E3A4 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2ABA72BB4C6CC0045E3A4 /* Movie.swift */; };
+		ACF2ABAD2BB4CAC80045E3A4 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2ABAB2BB4CAC80045E3A4 /* Reservation.swift */; };
+		ACF2ABAE2BB4CAC80045E3A4 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2ABAC2BB4CAC80045E3A4 /* Favorites.swift */; };
+		ACF2ABB42BB4CC490045E3A4 /* movie_list.json in Resources */ = {isa = PBXBuildFile; fileRef = ACF2ABB12BB4CC490045E3A4 /* movie_list.json */; };
+		ACF2ABB52BB4CC490045E3A4 /* search_movie.json in Resources */ = {isa = PBXBuildFile; fileRef = ACF2ABB22BB4CC490045E3A4 /* search_movie.json */; };
+		ACF2ABB62BB4CC490045E3A4 /* comingmovies.json in Resources */ = {isa = PBXBuildFile; fileRef = ACF2ABB32BB4CC490045E3A4 /* comingmovies.json */; };
+		D8BCA20A25F2C279CEC0BE98 /* Pods_Cenima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAA74962219B2F79A040524 /* Pods_Cenima.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BAA74962219B2F79A040524 /* Pods_Cenima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cenima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BC0AE0F8D0E24648056B88 /* Pods-Cenima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cenima.release.xcconfig"; path = "Target Support Files/Pods-Cenima/Pods-Cenima.release.xcconfig"; sourceTree = "<group>"; };
+		ACBB7C3E2BB4DE5E00CBA32B /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		ACBB7C422BB50FC200CBA32B /* jsonReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonReader.swift; sourceTree = "<group>"; };
+		ACBB7C442BB7207E00CBA32B /* Searches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searches.swift; sourceTree = "<group>"; };
+		ACBB7C462BB7C7F700CBA32B /* SearchMoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMoviesView.swift; sourceTree = "<group>"; };
+		ACD3C3112BBA805400A8F539 /* BigMovie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BigMovie.xcdatamodel; sourceTree = "<group>"; };
+		ACD3C3132BBA868C00A8F539 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		ACD3C31D2BBBD34300A8F539 /* ReservationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsView.swift; sourceTree = "<group>"; };
+		ACD3C33E2BCCE5B300A8F539 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		ACD3C3402BCCEF2D00A8F539 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		ACF2AB8B2BB28C550045E3A4 /* Cenima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cenima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF2AB8E2BB28C550045E3A4 /* CenimaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenimaApp.swift; sourceTree = "<group>"; };
+		ACF2AB902BB28C550045E3A4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		ACF2AB922BB28C570045E3A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACF2AB952BB28C570045E3A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACF2AB9D2BB28E0E0045E3A4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		ACF2AB9F2BB28EDB0045E3A4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		ACF2ABA12BB482300045E3A4 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		ACF2ABA42BB4830F0045E3A4 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		ACF2ABA72BB4C6CC0045E3A4 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		ACF2ABAB2BB4CAC80045E3A4 /* Reservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		ACF2ABAC2BB4CAC80045E3A4 /* Favorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		ACF2ABB12BB4CC490045E3A4 /* movie_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movie_list.json; sourceTree = "<group>"; };
+		ACF2ABB22BB4CC490045E3A4 /* search_movie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search_movie.json; sourceTree = "<group>"; };
+		ACF2ABB32BB4CC490045E3A4 /* comingmovies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = comingmovies.json; sourceTree = "<group>"; };
+		E05B060B8D010AF00EC0252C /* Pods-Cenima.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cenima.debug.xcconfig"; path = "Target Support Files/Pods-Cenima/Pods-Cenima.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACF2AB882BB28C550045E3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BCA20A25F2C279CEC0BE98 /* Pods_Cenima.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DCFC7B8BBAD9C0158E144D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E05B060B8D010AF00EC0252C /* Pods-Cenima.debug.xcconfig */,
+				62BC0AE0F8D0E24648056B88 /* Pods-Cenima.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9CA878DC39F045223005ADC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BAA74962219B2F79A040524 /* Pods_Cenima.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACF2AB822BB28C540045E3A4 = {
+			isa = PBXGroup;
+			children = (
+				ACF2AB8D2BB28C550045E3A4 /* Cenima */,
+				ACF2AB8C2BB28C550045E3A4 /* Products */,
+				4DCFC7B8BBAD9C0158E144D6 /* Pods */,
+				9CA878DC39F045223005ADC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACF2AB8C2BB28C550045E3A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2AB8B2BB28C550045E3A4 /* Cenima.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACF2AB8D2BB28C550045E3A4 /* Cenima */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2AB8E2BB28C550045E3A4 /* CenimaApp.swift */,
+				ACF2AB922BB28C570045E3A4 /* Assets.xcassets */,
+				ACF2ABB32BB4CC490045E3A4 /* comingmovies.json */,
+				ACF2ABB12BB4CC490045E3A4 /* movie_list.json */,
+				ACF2ABB22BB4CC490045E3A4 /* search_movie.json */,
+				ACBB7C422BB50FC200CBA32B /* jsonReader.swift */,
+				ACD3C3102BBA805400A8F539 /* ReservationModel.xcdatamodeld */,
+				ACD3C3132BBA868C00A8F539 /* Persistance.swift */,
+				ACF2AB942BB28C570045E3A4 /* Preview Content */,
+				ACF2ABA62BB4C6C20045E3A4 /* Models */,
+				ACF2AB9C2BB28DF70045E3A4 /* Views */,
+			);
+			path = Cenima;
+			sourceTree = "<group>";
+		};
+		ACF2AB942BB28C570045E3A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2AB952BB28C570045E3A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACF2AB9C2BB28DF70045E3A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2AB902BB28C550045E3A4 /* MainView.swift */,
+				ACF2AB9D2BB28E0E0045E3A4 /* LoginView.swift */,
+				ACF2AB9F2BB28EDB0045E3A4 /* SignUpView.swift */,
+				ACF2ABA12BB482300045E3A4 /* MainTabView.swift */,
+				ACF2ABA32BB482F80045E3A4 /* MainTabViewsPages */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACF2ABA32BB482F80045E3A4 /* MainTabViewsPages */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2ABA42BB4830F0045E3A4 /* MoviesView.swift */,
+				ACBB7C3E2BB4DE5E00CBA32B /* MovieDetailsView.swift */,
+				ACBB7C462BB7C7F700CBA32B /* SearchMoviesView.swift */,
+				ACD3C31D2BBBD34300A8F539 /* ReservationsView.swift */,
+				ACD3C33E2BCCE5B300A8F539 /* ProfileView.swift */,
+				ACD3C3402BCCEF2D00A8F539 /* InformationView.swift */,
+			);
+			path = MainTabViewsPages;
+			sourceTree = "<group>";
+		};
+		ACF2ABA62BB4C6C20045E3A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2ABAC2BB4CAC80045E3A4 /* Favorites.swift */,
+				ACF2ABAB2BB4CAC80045E3A4 /* Reservation.swift */,
+				ACF2ABA72BB4C6CC0045E3A4 /* Movie.swift */,
+				ACBB7C442BB7207E00CBA32B /* Searches.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACF2AB8A2BB28C550045E3A4 /* Cenima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF2AB992BB28C570045E3A4 /* Build configuration list for PBXNativeTarget "Cenima" */;
+			buildPhases = (
+				9CA101D7FC549AD664280656 /* [CP] Check Pods Manifest.lock */,
+				ACF2AB872BB28C550045E3A4 /* Sources */,
+				ACF2AB882BB28C550045E3A4 /* Frameworks */,
+				ACF2AB892BB28C550045E3A4 /* Resources */,
+				F4FD8BB9E4CE64B405045266 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cenima;
+			productName = Cenima;
+			productReference = ACF2AB8B2BB28C550045E3A4 /* Cenima.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACF2AB832BB28C540045E3A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ACF2AB8A2BB28C550045E3A4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ACF2AB862BB28C540045E3A4 /* Build configuration list for PBXProject "Cenima" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACF2AB822BB28C540045E3A4;
+			productRefGroup = ACF2AB8C2BB28C550045E3A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACF2AB8A2BB28C550045E3A4 /* Cenima */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACF2AB892BB28C550045E3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF2AB962BB28C570045E3A4 /* Preview Assets.xcassets in Resources */,
+				ACF2AB932BB28C570045E3A4 /* Assets.xcassets in Resources */,
+				ACF2ABB42BB4CC490045E3A4 /* movie_list.json in Resources */,
+				ACF2ABB62BB4CC490045E3A4 /* comingmovies.json in Resources */,
+				ACF2ABB52BB4CC490045E3A4 /* search_movie.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CA101D7FC549AD664280656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cenima-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4FD8BB9E4CE64B405045266 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cenima/Pods-Cenima-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cenima/Pods-Cenima-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cenima/Pods-Cenima-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACF2AB872BB28C550045E3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF2ABAE2BB4CAC80045E3A4 /* Favorites.swift in Sources */,
+				ACD3C31E2BBBD34400A8F539 /* ReservationsView.swift in Sources */,
+				ACF2ABA82BB4C6CC0045E3A4 /* Movie.swift in Sources */,
+				ACF2ABA02BB28EDB0045E3A4 /* SignUpView.swift in Sources */,
+				ACF2ABA52BB4830F0045E3A4 /* MoviesView.swift in Sources */,
+				ACBB7C3F2BB4DE5E00CBA32B /* MovieDetailsView.swift in Sources */,
+				ACF2AB9E2BB28E0E0045E3A4 /* LoginView.swift in Sources */,
+				ACF2AB912BB28C550045E3A4 /* MainView.swift in Sources */,
+				ACBB7C472BB7C7F700CBA32B /* SearchMoviesView.swift in Sources */,
+				ACD3C33F2BCCE5B300A8F539 /* ProfileView.swift in Sources */,
+				ACD3C3142BBA868C00A8F539 /* Persistance.swift in Sources */,
+				ACF2AB8F2BB28C550045E3A4 /* CenimaApp.swift in Sources */,
+				ACD3C3122BBA805400A8F539 /* ReservationModel.xcdatamodeld in Sources */,
+				ACF2ABAD2BB4CAC80045E3A4 /* Reservation.swift in Sources */,
+				ACBB7C432BB50FC200CBA32B /* jsonReader.swift in Sources */,
+				ACD3C3412BCCEF2D00A8F539 /* InformationView.swift in Sources */,
+				ACF2ABA22BB482300045E3A4 /* MainTabView.swift in Sources */,
+				ACBB7C452BB7207E00CBA32B /* Searches.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ACF2AB972BB28C570045E3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACF2AB982BB28C570045E3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACF2AB9A2BB28C570045E3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05B060B8D010AF00EC0252C /* Pods-Cenima.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cenima/Preview Content\"";
+				DEVELOPMENT_TEAM = 32NFNWRJ4K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercury.Cenima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ACF2AB9B2BB28C570045E3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62BC0AE0F8D0E24648056B88 /* Pods-Cenima.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cenima/Preview Content\"";
+				DEVELOPMENT_TEAM = 32NFNWRJ4K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercury.Cenima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACF2AB862BB28C540045E3A4 /* Build configuration list for PBXProject "Cenima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF2AB972BB28C570045E3A4 /* Debug */,
+				ACF2AB982BB28C570045E3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF2AB992BB28C570045E3A4 /* Build configuration list for PBXNativeTarget "Cenima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF2AB9A2BB28C570045E3A4 /* Debug */,
+				ACF2AB9B2BB28C570045E3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACD3C3102BBA805400A8F539 /* ReservationModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACD3C3112BBA805400A8F539 /* BigMovie.xcdatamodel */,
+			);
+			currentVersion = ACD3C3112BBA805400A8F539 /* BigMovie.xcdatamodel */;
+			path = ReservationModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ACF2AB832BB28C540045E3A4 /* Project object */;
+}

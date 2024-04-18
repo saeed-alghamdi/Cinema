@@ -1,0 +1,30 @@
+PODS:
+  - BottomSheetSwiftUI (3.1.1)
+  - SDWebImage (5.15.0):
+    - SDWebImage/Core (= 5.15.0)
+  - SDWebImage/Core (5.15.0)
+  - SDWebImageSwiftUI (2.2.2):
+    - SDWebImage (~> 5.10)
+  - ToastSwiftUI (0.3.6)
+
+DEPENDENCIES:
+  - BottomSheetSwiftUI
+  - SDWebImageSwiftUI
+  - ToastSwiftUI
+
+SPEC REPOS:
+  trunk:
+    - BottomSheetSwiftUI
+    - SDWebImage
+    - SDWebImageSwiftUI
+    - ToastSwiftUI
+
+SPEC CHECKSUMS:
+  BottomSheetSwiftUI: 08b5ada340a164b7ef49cf04b6733a0bd3f02957
+  SDWebImage: 9bec4c5cdd9579e1f57104735ee0c37df274d593
+  SDWebImageSwiftUI: 54ded4115b4ac6cd60b78f61415f86d070892d98
+  ToastSwiftUI: 02d2547df70d2f12340b6a9bf85e670cab3bbf3b
+
+PODFILE CHECKSUM: cd36dcf2e8686bc3feaaf30c8bfcdc09e6c2d279
+
+COCOAPODS: 1.11.3
